@@ -1,0 +1,20 @@
+Creating VCS Repositories for New Projects
+Qt Creator allows you to create repositories for version control systems that support local repository creation, such as Git, Mercurial, or Bazaar. When creating a new project by selecting File > New File or Project, you can choose a version control system on the final wizard page.
+
+You can also select Tools and then select Create Repository in the submenu for the version control system.
+
+To import a project that is under version control, choose File > New Project > Project from Version Control and select the version control system that you use. Follow the instructions of the wizard to import the project.
+
+Using Common Functions
+The Tools menu has a submenu for each supported version control system. This section describes using the functions that are available for all the supported version control systems. For more information about the additional functions and options available for a particular version control system, see:
+
+Using Bazaar
+Using ClearCase
+Using CVS
+Using Fossil
+Using Git
+Using GitLab
+Using Mercurial
+Using Perforce
+Using Subversion
+Version Control displays the commands that are executed, a timestamp, and the relevant output. Select View > Output > Version Control to open the view.
