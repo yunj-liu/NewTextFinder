@@ -40,6 +40,8 @@ void TextFinder::loadTextFile()
     ui->textEdit->setPlainText(line);
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::Start, QTextCursor::MoveAnchor, 1);
+    int d; //第二次commit后的修改
+    d=40;
 }
 
 
