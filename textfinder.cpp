@@ -10,11 +10,15 @@ TextFinder::TextFinder(QWidget *parent)
 {
     ui->setupUi(this);
     loadTextFile();
+    int c;  // Snapshot1之后的修改
+    c=30;
 }
 
 TextFinder::~TextFinder()
 {
     delete ui;
+    int a;  // commit后的修改
+    a=10;
 }
 
 
