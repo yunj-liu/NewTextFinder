@@ -26,6 +26,8 @@ void TextFinder::on_findButton_clicked()
 {
     QString searchString = ui->lineEdit->text();
     ui->textEdit->find(searchString, QTextDocument::FindWholeWords);
+    int e; //edit in github
+    e=50;
 }
 
 void TextFinder::loadTextFile()
