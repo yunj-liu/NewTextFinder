@@ -10,7 +10,7 @@ TextFinder::TextFinder(QWidget *parent)
 {
     ui->setupUi(this);
     loadTextFile();
-    int c;  // Snapshot1之后的修改
+    int c;  // Changes after snapshot1
     c=30;
 }
 
