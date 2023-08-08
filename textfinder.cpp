@@ -17,7 +17,7 @@ TextFinder::TextFinder(QWidget *parent)
 TextFinder::~TextFinder()
 {
     delete ui;
-    int a;  // commit后的修改
+    int a;  // Changes after commit. edit in thinkpad
     a=10;
 }
 
@@ -28,6 +28,7 @@ void TextFinder::on_findButton_clicked()
     ui->textEdit->find(searchString, QTextDocument::FindWholeWords);
     int e; //edit in github
     e=50;
+    int f; //edit in thinkpad
 }
 
 void TextFinder::loadTextFile()
@@ -42,7 +43,7 @@ void TextFinder::loadTextFile()
     ui->textEdit->setPlainText(line);
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::Start, QTextCursor::MoveAnchor, 1);
-    int d; //第二次commit后的修改
+    int d; //Changes after the second commit. edit in thinkpad
     d=40;
 }
 

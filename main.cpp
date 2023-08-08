@@ -20,6 +20,6 @@ int main(int argc, char *argv[])
     TextFinder w;
     w.show();
     return a.exec();
-    int b; // commit后的修改
+    int b; // Changes after commit. edit in thinkpad
     b=20;
 }
