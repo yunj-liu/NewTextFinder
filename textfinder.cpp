@@ -12,6 +12,7 @@ TextFinder::TextFinder(QWidget *parent)
     loadTextFile();
     int c;  // Changes after snapshot1
     c=30;
+    int g;  //test diff
 }
 
 TextFinder::~TextFinder()
